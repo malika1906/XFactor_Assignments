@@ -1,17 +1,16 @@
 import java.util.Scanner;
 
-public class Divide {
+public class program2 {
     // Function to divide a by b 
     static int divide(int dividend, int divisor)
     {
-        // Calculate sign of divisor i.e., sign will be negative only iff either one of them is negative otherwise it will be positive
+        // Calculate sign of divisor 
         int sign = ((dividend < 0) ^ (divisor < 0)) ? -1 : 1;
      
         // Update both divisor and dividend positive
         dividend = Math.abs(dividend);
         divisor = Math.abs(divisor);
      
-        // Initialize the quotient
         int quotient = 0;
          
         while (dividend >= divisor)
@@ -19,7 +18,6 @@ public class Divide {
             dividend -= divisor;
             ++quotient;
         }
-     
         return sign * quotient;
     }   
      

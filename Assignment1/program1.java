@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Clock{
+class program1{
     public static double findAngle(int hour, int min)
     {
         // find the position of the hour's hand

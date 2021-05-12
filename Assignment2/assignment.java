@@ -28,7 +28,7 @@ class Student{
     }
     void show()
     {
-        System.out.println("Sudent details: ");
+        System.out.println("Student details: ");
         System.out.println("Name: "+name+", Age: "+age+", Gender: "+gender+", Address: "+address);
     }
 
